@@ -12,7 +12,7 @@ public class SpringAzureDemoApplication {
     @GetMapping("/message") 
     public String message()
     {
-        return "Hello AZURE !.";
+        return "Hello AZURE - ESSID !.";
     }
 
     public static void main(String[] args) {
