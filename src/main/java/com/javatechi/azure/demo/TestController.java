@@ -9,6 +9,6 @@ public class TestController {
     @GetMapping("/") 
     public String message()
     {
-        return "Hello AZURE - ESSID from Controller!."
+        return "Hello AZURE - ESSID from Controller!.";
     }
 }
