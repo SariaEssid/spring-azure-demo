@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
  
-    @GetMapping("/message") 
+    @GetMapping("/") 
     public String message()
     {
         return "Hello AZURE - ESSID from Controller!.";
